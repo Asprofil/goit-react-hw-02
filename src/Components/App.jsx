@@ -5,6 +5,7 @@ import Options from './Options.jsx';
 import Description from './Description.jsx';
 
 
+
 const App = () => {
   const initialFeedback = JSON.parse(localStorage.getItem('feedback')) || {
     good: 0,
@@ -45,5 +46,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;
