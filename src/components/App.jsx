@@ -41,7 +41,7 @@ const App = () => {
       {totalFeedback > 0 ? (
         <Feedback feedback={feedback} totalFeedback={totalFeedback} positiveFeedbackPercentage={positiveFeedbackPercentage} />
       ) : (
-        <p>No feedback given</p>
+         <Notification message="No feedback given" />
       )}
     </div>
   );
